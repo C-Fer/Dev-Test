@@ -12,7 +12,7 @@ def is_overlapping(line_A, line_B):
     return True
 
 i = 0
-limit = 1500
+limit = 15
 
 while i < 100:
 
