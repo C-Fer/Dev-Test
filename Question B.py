@@ -1,4 +1,4 @@
-def library_version_number(library):
+def library_version_number(library): #this function verifies that the input is a number
     try:
         library_number = float(library)
         return library_number
