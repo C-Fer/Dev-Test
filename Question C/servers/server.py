@@ -35,11 +35,11 @@ class Server:
 
         clientsocket.send(bytes(current_hour,"utf-8"))
 
-        russian_roulette = random.randint(0, 12)
+        random_Shutdown = random.randint(0, 12)
 
-        print(russian_roulette)
+        print(random_Shutdown)
 
-        if russian_roulette == 1:
+        if random_Shutdown == 1:
           print("Killing socket")
           sys.exit()
 
